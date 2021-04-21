@@ -1,0 +1,12 @@
+.holding {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.temaki-logo {
+    height: 100%;
+    width: 100%;
+}
+
