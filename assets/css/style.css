@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Futura';
+    src:
+     url('../fonts/futura-medium.woff') format('woff'),
+        url('../fonts/futura-medium.woff2') format('woff2'),
+        url('../fonts/futura-medium.ttf') format('truetype');
+    /* font-weight: 500;
+    font-style: normal;
+    font-display: swap; */
+}
+
+
+.font-futura {
+    font-family: "futura-medium.ttf";
+}
+
+
 .holding {
     position: fixed;
     top: 50%;
@@ -10,3 +27,12 @@
     width: 100%;
 }
 
+/* ---------------------------------------------------Media queries */
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
