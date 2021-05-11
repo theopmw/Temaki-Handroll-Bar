@@ -20,19 +20,49 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} 
 
 .temaki-logo {
     height: 100%;
     width: 100%;
 }
 
+.coming-soon h3 {
+    color: #252523;
+    padding-top: 20px;
+    font-size: 54px;
+}
+
 /* ---------------------------------------------------Media queries */
 
 @media screen and (max-width: 576px) {
+    .holding {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .temaki-logo {
+        width: 280px;
+        height: 120px;
+    }
+
+    .coming-soon h3 {
+        font-size: 14px;
+    }
+
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .temaki-logo {
+        width: 576px;
+        height: 332px;  
+    }
+
+    .coming-soon h3 {
+        font-size: 28px;
+    }
 
 }
