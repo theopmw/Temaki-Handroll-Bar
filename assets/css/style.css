@@ -9,60 +9,174 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Footer positioning */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+/* Inline list positioning */
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+  }
+  .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+/*
+------------------------------------------
+Fonts
+------------------------------------------
+*/
 
 .font-futura {
     font-family: "futura-medium", sans-serif;
 }
 
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
 
-.holding {
+/* Text shadows */
+
+.text-shadow {
+    text-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
+}
+
+/*
+------------------------------------------
+Logo
+------------------------------------------
+*/
+
+.logo {
+    margin-top: 3.125rem;
+}
+
+
+/* .logo {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-} 
+}  */
 
 .temaki-logo {
     height: 100%;
     width: 100%;
 }
 
-.coming-soon h3 {
-    color: #252523;
-    padding-top: 20px;
-    font-size: 30px;
+/*
+------------------------------------------
+Address
+------------------------------------------
+*/
+
+.address {
+    margin-top: 1.25rem;
+}
+
+.address p {
+    margin: 0.3125rem 0 0.3125rem 0
+}
+
+/*
+------------------------------------------
+Hours
+------------------------------------------
+*/
+
+.hours-days {
+    margin-bottom: 0.3125rem;
+}
+
+.hours-times {
+    margin-top: 0.3125rem;
+}
+
+/*
+------------------------------------------
+Contact Us
+------------------------------------------
+*/
+
+.email-link a {
+    color: #f44336;
+}
+
+.email-link a:hover {
+    color: #b71c1c;
+}
+
+/*
+------------------------------------------
+Buttons
+------------------------------------------
+*/
+
+.btn-large {
+    width: 12.5rem;
+}
+
+.btn-large:hover {
+    color: #fff !important;
+}
+
+/*
+------------------------------------------
+Footer
+------------------------------------------
+*/
+
+.footer-social-links {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.page-footer{
+    padding: 0;
+}
+
+
+.footer-copyright {
+    margin-left: 0.625rem
 }
 
 /* ---------------------------------------------------Media queries */
 
-@media screen and (max-width: 576px) {
-    .holding {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+/* >600px - Materialize Tablet devices (m) */
 
-    .temaki-logo {
-        width: 280px;
-        height: 120px;
-    }
-
-    .coming-soon h3 {
-        font-size: 14px;
-    }
-
+@media screen and (min-width: 601px) {
 
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    .temaki-logo {
-        width: 560px;
-        height: 240px;  
-    }
+/* >992px - Materialize Desktop devices (l) */
 
-    .coming-soon h3 {
-        font-size: 28px;
+@media screen and (min-width: 992px) {
+
+    .temaki-logo {
+        height: 50%;
+        width: 50%;
     }
+}
+
+/* >1200px - Materialize Large Desktop devices (l) */
+
+@media screen and (min-width: 1200px) {
 
 }

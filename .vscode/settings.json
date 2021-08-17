@@ -21,4 +21,7 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "GitHub Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+   },
 }
