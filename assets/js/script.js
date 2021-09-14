@@ -4,4 +4,4 @@ Display current year in Footer copyright
 ------------------------------------------
 */
 
-$("#year").html(new Date().getFullYear());
+$(".year").html(new Date().getFullYear());
