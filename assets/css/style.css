@@ -148,6 +148,11 @@ Buttons
 ------------------------------------------
 */
 
+.buttons {
+    margin-bottom: 100px;
+}
+
+
 .btn-large {
     width: 12.5rem;
 }
