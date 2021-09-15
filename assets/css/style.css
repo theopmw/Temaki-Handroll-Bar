@@ -11,15 +11,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/* Background image */
+/* Background images */
 
-html { 
-    background: url(/assets/images/home_bg.jpeg) no-repeat center center fixed; 
+html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
+
+.home-bg {
+    background: url(/assets/images/home_bg.jpeg) no-repeat center center fixed; 
+}
+
+.hours-bg {
+    background: url(/assets/images/hours_bg.png) no-repeat center center fixed; 
+}
 
 .transparentBG {
     background-color: rgba(0,0,0,0);
