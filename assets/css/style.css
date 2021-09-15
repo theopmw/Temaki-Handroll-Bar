@@ -105,7 +105,7 @@ Logo
 .temaki-logo {
     height: 100%;
     width: 100%;
-    margin-bottom: -50px;
+    /* margin-bottom: -50px; */
 }
 
 /*
@@ -161,7 +161,6 @@ Buttons
 }
 
 
-
 .btn-large {
     width: 12.5rem;
     margin: 20px 10px 20px 10px
@@ -209,14 +208,11 @@ Footer
         height: 75%;
         width: 75%;
     }
-
-
-
 }
 
 /* >992px - Materialize Desktop devices (l) */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
 
     .temaki-logo {
         height: 100%;
@@ -240,5 +236,9 @@ Footer
 /* >1200px - Materialize Large Desktop devices (l) */
 
 @media screen and (min-width: 1200px) {
+
+    .temaki-logo {
+        margin-bottom: -50px;
+    }
 
 }
