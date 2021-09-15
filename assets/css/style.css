@@ -105,6 +105,7 @@ Logo
 .temaki-logo {
     height: 100%;
     width: 100%;
+    margin-bottom: -50px;
 }
 
 /*
@@ -156,12 +157,14 @@ Buttons
 */
 
 .buttons {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
+
 
 
 .btn-large {
     width: 12.5rem;
+    margin: 20px 10px 20px 10px
 }
 
 .btn-large:hover {
@@ -227,6 +230,10 @@ Footer
     .smallMedScreen {
         display: none;
     }
+
+    .temaki-logo {
+        padding-right: 53px;
+   }
 }
 
 
