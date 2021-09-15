@@ -163,7 +163,8 @@ Buttons
 
 .btn-large {
     width: 12.5rem;
-    margin: 20px 10px 20px 10px
+    margin: 20px 10px 20px 10px;
+    padding: 0;
 }
 
 .btn-large:hover {
