@@ -40,12 +40,15 @@ html {
     background-color: rgba(0,0,0,0);
 }
 
+/* Center page content */
+
 #wrapper {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* Footer positioning */
 
 body {
@@ -54,10 +57,13 @@ body {
     flex-direction: column;
   }
 
-  main {
+main {
     flex: 1 0 auto;
   }
 
+/* .page-footer {
+    margin-top: auto;
+} */
 
 /* Inline list positioning */
 
@@ -92,6 +98,12 @@ Fonts
     text-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
 }
 
+/* Uppercase */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*
 ------------------------------------------
 Logo
@@ -113,6 +125,7 @@ Logo
 .temaki-logo {
     height: 100%;
     width: 100%;
+    padding-right: 6px;
     /* margin-bottom: -50px; */
 }
 
@@ -167,13 +180,13 @@ Contact Us
 ------------------------------------------
 */
 
-.email-link a {
+/* .email-link a {
     color: #f44336;
 }
 
 .email-link a:hover {
     color: #b71c1c;
-}
+} */
 
 /*
 ------------------------------------------
@@ -181,13 +194,13 @@ Buttons
 ------------------------------------------
 */
 
-.buttons {
-    margin-bottom: 180px;
-}
+/* .buttons {
+    margin-bottom: 20px;
+} */
 
 
 .btn-large {
-    width: 12.5rem;
+    width: 12rem;
     margin: 20px 10px 20px 10px;
     padding: 0;
 }
