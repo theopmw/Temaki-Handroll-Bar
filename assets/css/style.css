@@ -28,7 +28,7 @@ html {
   }
 
 .home-bg {
-    background: url(/assets/images/home_bg.jpeg) no-repeat center center fixed; 
+    background: url(/assets/images/home_bg.jpeg) no-repeat center center fixed;
 }
 
 .hours-bg {
@@ -40,20 +40,11 @@ html {
     background-color: rgba(0,0,0,0);
 }
 
-/* Center page content */
-
-#wrapper {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 /* Footer positioning */
 
 body {
     display: flex;
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
   }
 
@@ -243,6 +234,10 @@ Footer
 
 @media screen and (min-width: 601px) {
 
+    .logo-and-buttons {
+        margin-top: 150px !important;
+    }
+
     .temaki-logo {
         height: 75%;
         width: 75%;
@@ -251,12 +246,32 @@ Footer
     .hours-table {
         width: 75%;
     }
+
+    body {
+        /* display: flex; */
+        min-height: 100vh;
+        /* flex-direction: column; */
+      }
 }
 
 /* >992px - Materialize Desktop devices (l) */
 
 @media screen and (min-width: 993px) {
 
+    /* body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      } */
+
+    .logo-and-buttons {
+        margin-top: 0 !important;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+    
     .temaki-logo {
         height: 100%;
         width: 100%;
@@ -271,8 +286,19 @@ Footer
     }
 
     .temaki-logo {
+        height: 85%;
+        width: 85%;
         padding-right: 53px;
    }
+
+   /* Center page content */
+
+    #wrapper {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 
