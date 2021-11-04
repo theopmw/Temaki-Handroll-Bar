@@ -105,7 +105,6 @@ Logo
     margin-top: 3.125rem;
 }
 
-
 /* .logo {
     position: fixed;
     top: 50%;
@@ -119,20 +118,6 @@ Logo
     padding-right: 6px;
     /* margin-bottom: -50px; */
 }
-
-/*
-------------------------------------------
-Address
-------------------------------------------
-*/
-
-/* .address {
-    margin-top: 1.25rem;
-}
-
-.address p {
-    margin: 0.3125rem 0 0.3125rem 0
-} */
 
 /*
 ------------------------------------------
@@ -167,28 +152,9 @@ td {
 
 /*
 ------------------------------------------
-Contact Us
-------------------------------------------
-*/
-
-/* .email-link a {
-    color: #f44336;
-}
-
-.email-link a:hover {
-    color: #b71c1c;
-} */
-
-/*
-------------------------------------------
 Buttons
 ------------------------------------------
 */
-
-/* .buttons {
-    margin-bottom: 20px;
-} */
-
 
 .btn-large {
     width: 12rem;
@@ -197,6 +163,29 @@ Buttons
 }
 
 .btn-large:hover {
+    color: #fff !important;
+}
+
+/* Open table button */
+
+#ot-reservation-widget {
+    margin: auto;
+}
+
+.ot-button {
+    background-color: #F44336 !important;
+    color: #000 !important;
+    text-transform: uppercase !important;
+    font-family: "futura-medium", sans-serif !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    width: 12rem !important;
+    border: none !important;
+    padding-top: 3px !important;
+    padding-right: 27px !important;
+}
+
+.ot-button:hover {
     color: #fff !important;
 }
 
@@ -248,21 +237,13 @@ Footer
     }
 
     body {
-        /* display: flex; */
         min-height: 100vh;
-        /* flex-direction: column; */
       }
 }
 
 /* >992px - Materialize Desktop devices (l) */
 
 @media screen and (min-width: 993px) {
-
-    /* body {
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-      } */
 
     .logo-and-buttons {
         margin-top: 0 !important;
@@ -288,7 +269,8 @@ Footer
     .temaki-logo {
         height: 85%;
         width: 85%;
-        padding-right: 53px;
+        /* padding-right: 53px; */
+        padding-right: 20px;
    }
 
    /* Center page content */
